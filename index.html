@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- fontawesome link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- bootstrap link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+	<!-- custom link -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+	<title>Table</title>
+</head>
+<body>
+	<!-- code of table is here -->
+
+	<section id="table-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="text-center text-wrap">
+						<h1 class="text-capitalize fw-bold mb-4">upcoming NFT events</h1>
+						<p class="hl-lg">Explore the most amazing upcoming NFT events and the real-time data, facts, and figures about these events. Find all <br> upcoming NFT events that are soon going to hit the NFT market space. Help upcomingnft Community to witness amazing NFT <br> projects by submitting your project with upcomingnft.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">	
+					<!-- code of input is here -->
+					<div class="mb-4 table-input">
+						<label>Event per page</label>
+						<select >
+							<option value="25">25</option>
+							<option value="50">50</option>
+							<option value="75">75</option>
+							<option value="100">100</option>
+							<option value="200">200</option>
+						</select>
+	   				 </div>
+					<!-- code of table is here -->
+					<table class="table text-wrap table-responsive">
+					  <thead class="bg-dark text-light">
+					    <tr>
+					      <th scope="col">No.</th>
+					      <th scope="col">image</th>
+					      <th scope="col">projects</th>
+					      <th scope="col">
+					      	<a href="#">
+					      		Pre-sale
+						      <i class="fa fa-arrow-up table-icon"></i>
+						      <i class="fa fa-arrow-down table-icon"></i>					      	
+					      	</a>
+					      </th>
+					      <th scope="col">
+					      	<a href="#">
+					      	 	Public-sale
+						      <i class="fa fa-arrow-up table-icon"></i>
+						      <i class="fa fa-arrow-down table-icon text-light"></i>
+					      	</a>
+					      </th>
+					      <th scope="col">Price</th>
+					      <th scope="col">Supply</th>
+					      <th scope="col">
+					      	<a href="#">
+					      		Twitter
+						      <i class="fa fa-arrow-up table-icon"></i>
+						      <i class="fa fa-arrow-down table-icon"></i>
+					      	</a>
+					      </th>
+					      <th scope="col">Discord</th>
+					      <th scope="col">Url</th>
+					      <th scope="col">
+					      	<a href="#">
+					      		Like
+						      <i class="fa fa-arrow-up table-icon"></i>
+						      <i class="fa fa-arrow-down table-icon"></i>
+					      	</a>
+					      </th>
+					    </tr>
+					  </thead>
+					  <tbody>
+
+					  	<!-- first row -->
+					    <tr>
+					      <td>1</td>
+					      <td>
+					      	<a href="#">
+					      		<img src="https://upcomingnft.net/wp-content/uploads/2022/01/2-768x768.jpg"class="img-fluid rounded-circle " width="50px">		
+					      	</a>
+					      </td>
+					      <td class="fw-bold">
+					      	<a href="#">Do Bro</a>
+					  	 </td>
+					      <td>26 jan 2022</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					    	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      	0.045
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	6300
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		1.5k
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">		
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		45
+					      	</a>
+					  	  </td>
+					    </tr>
+
+					    <!-- 2nd row -->
+
+					    <tr class="table-active">
+					      <td>2</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/Untitled-design-2-1-1643019677-150x150.gif" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">Reincarnated as</a></td>
+					      <td>-</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      	0.2
+					  	  </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	6666
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">	
+					      		30.6k
+					      	</a>
+					  	  </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+						      	<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+						   </td>
+					       <td>
+					      	<a href="#">
+						     	 <img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+						      	3
+					      	 </a>
+					      	</td>
+					    </tr>
+
+					    <!-- 3rd row -->
+					    <tr>
+					      <td>3</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/sharpbunnies-150x150.gif" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">Sharp Bunnies</a></td>
+					      <td>-</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      	0.08
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	9999
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		2.1k
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		1
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- fourth row -->
+
+					    <tr class="table-active">
+					      <td>4</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/8169-1642902785-150x150.png" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">Tropical Snail ...</a></td>
+					      <td>-</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      	0.003
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	100000
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		19
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		3
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- fifth row -->
+					    <tr>
+					      <td>5</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2021/12/1969-07-20-1-150x150.png" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">Time Verse NFT...</a> </td>
+					      <td>20 jan 2022</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      	0.06
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	36660
+					      </td>
+					      <td>
+					      	<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      	25.8k
+					      </td>
+					      <td>
+					      	<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		50
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- six row -->
+
+					    <tr class="table-active">
+					      <td>6</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/gif2-1642753651-150x150.gif" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"> <a href="#">Aiyah Verse Sti...</a></td>
+					      <td>26 jan 2022</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      	0.08
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	1000
+					  	  </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		5.6k
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">	
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		1
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- seventh row -->
+					    <tr>
+					      <td>7</t6>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/Avatar-cyberpunk3-1642777529-300x300.jpg" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"> <a href="#">Cats Corporatio...</a></td>
+					      <td>24 jan 2022</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	12000
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					     		1.1k
+					      	</a>
+					  	 </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		1
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- eight row -->
+
+					    <tr class="table-active">
+					      <td>8</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/ezgif.com-gif-maker-1-2-1-min-1-1642946743-150x150.gif" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">Skunk Club...</a></td>
+					      <td>-</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/matic-coin.svg" width="25px">
+					     	 50
+					  	  </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	5000
+					  	  </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		712
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <a href="#">
+					      	<td>
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		1
+					      	</td>
+					      </a>
+					    </tr>
+
+					    <!-- nine row -->
+					    <tr>
+					      <td>9</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/FJreCsxaAAEiSfm-1643023387-150x150.jpg" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">Rich Sad Cat</a></td>
+					      <td>-</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      	0.05
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">	
+					      	8555
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		13.1k
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		1
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- ten row -->
+
+					    <tr class="table-active">
+					      <td>10</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/soulshift-150x150.jpg" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">SOULSHIFT</a></td>
+					      <td>-</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/cropto-icon.svg" width="25px">
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">	
+					      		18.9k
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		1
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- eleven row -->
+
+					    <tr>
+					      <td>11</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/photo_2022-01-22_08-10-46-1643230512-150x150.jpg" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">SolSadsClub</a></td>
+					      <td>27 jan 2022</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/sol-coin.svg" width="25px">
+					      	0.6
+					  	  </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	1666
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		579
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		1
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- twelve row -->
+
+					    <tr class="table-active">
+					      <td>12</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/Dodo-51-1642953583-150x150.jpg" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">Extinct Creatur...</a></td>
+					      <td>27 jan 2022</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/sol-coin.svg" width="25px">
+					       	0.33
+					  	  </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	5555
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		2.5k
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		1
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- thirteen row -->
+					    <tr>
+					      <td>13</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/xone-1643267008-150x150.jpg" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">XONE</a></td>
+					      <td>-</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      	0.1
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	2500
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		13k
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <a href="#">
+					      	<td>
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+					      		1
+					      	</td>
+					      </a>
+					    </tr>
+
+					    <!-- fourteen row -->
+
+					    <tr class="table-active">
+					      <td>14</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/164146666d869-1643224811-150x150.jpg" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">Mystery Ape Box</a></td>
+					      <td>27 jan 2022</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/sol-coin.svg" width="25px">
+					     	 0
+					  	  </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	10000
+					  	  </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		2.4k
+					      	</a>	
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+						      	<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+						      	1
+					      	</a>
+					      </td>
+					    </tr>
+
+					    <!-- fifteen row -->
+					    <tr>
+					      <td>15</td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/uploads/2022/01/CE95E2AC-FD3B-4F9D-AA03-A77C90CE9DD5-150x150.jpeg" width="50px">
+					      	</a>
+					      </td>
+					      <td class="fw-bold"><a href="#">Catlantic</a></td>
+					      <td>27 jan 2022</td>
+					      <td>27 jan 2022</td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/eth-coin.svg" width="25px">
+					      </td>
+					      <td>
+					      	<img src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/picture-icon.svg" width="25px">
+					      	2222
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/twitter.svg" width="25px">
+					      		2.4k
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/discord.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+					      		<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/website.svg" width="25px">
+					      	</a>
+					      </td>
+					      <td>
+					      	<a href="#">
+						      	<img class="img-fluid rounded-circle" src="https://upcomingnft.net/wp-content/themes/event/assets/imgs/like.svg" width="25px">
+						     	31
+					      	</a>
+					      </td>
+					    </tr>
+					  </tbody>
+					</table>
+				</div>
+
+				<!-- paginations -->
+			</div>
+			<div class="page">
+				<div class="fw-bold page-para">
+					<p>Showing 1 to 25 of  100</p>
+				</div>
+				<div class="page-pagination">
+					<nav aria-label="Page" >
+					  <ul class="pagination fw-bold">
+					    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+					    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item "><a class="page-link" href="#">4</a></li>
+					    <li class="page-item "><a class="page-link" href="#">5</a></li>
+					    <li class="page-item"><a class="page-link" href="#">...</a></li>
+					    <li class="page-item"><a class="page-link" href="#">14</a></li>
+					    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+					  </ul>
+					</nav>	
+				</div>	
+			</div>
+		</div>
+	</section>
+
+
+
+
+<!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- fontawesome script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

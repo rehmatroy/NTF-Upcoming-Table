@@ -1,0 +1,146 @@
+body {
+    color: #222;
+    line-height: 24px;
+    font-weight: 400;
+    clear: both;
+    letter-spacing: .3px;
+    margin: 0;
+}
+#table-section{
+	padding: 60px 0;
+}
+#main-table h2 {
+    font-size: 54px;
+    line-height: 62px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*style of input is here*/
+
+.table-input label{
+    font-size: 20px;
+}
+.table-input select{
+    width: 90px;
+    padding: 10px 5px;
+    border: 3px solid #eaefff;
+    border-radius: 10px;
+    font-family: circular_bold;
+    font-size: 18px;
+    font-weight: bold;
+}
+.table-input select option{
+    font-weight: bold;
+}
+.table-input select:focus{
+    outline: none;
+    border: nones;
+}
+
+/*style of table is here*/
+table{
+    width: 100%;
+}
+.table th{
+    border: 1px solid dimgray;
+    padding: 12px;
+}
+table, tr {
+  border: 1px solid dimgray;
+  border-collapse: collapse;
+}
+.table tbody tr td{
+    font-family: sans-serif;
+    padding: 10px;
+    vertical-align: middle;
+}
+.table thead th a{
+    text-decoration: none;
+    color: #fff;
+}
+.table tbody td a{
+    text-decoration: none;
+    color: black;
+}
+.table-icon{
+    font-size: 10px;
+    color: darkgray;
+}
+
+/*media curies for table*/
+
+@media (max-width: 1200px) and (min-width:590px){
+    table th{
+        padding: 20px;
+        font-size: 15px;
+    }
+    table thead th .table-icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+.table {
+    border-collapse: collapse;
+    overflow-x: auto !important;
+    display: block !important;
+    width: fit-content !important;
+    max-width: 100% !important;
+    }
+}
+
+/*style of pagingations*/
+
+.page{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pagination .page-item .page-link {
+    border: 1px solid #00c1c1;
+    font-family: circular_bold;
+    color: #06163a;
+    padding: 10px 15px;
+}
+.pagination .active a{
+    background-color: #00c1c1 !important;
+    color: #fff;
+}
+.pagination .page-item .page-link:focus{
+    box-shadow: none !important;
+}
+.pagination .page-item:hover .page-link {
+    background-color: #00c1c1;
+    color: #fff;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+ /*media curies for pagination*/
+@media (max-width: 844px) and (min-width: 500pxpx){
+    .page{
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 520px) and (min-width: 280px){
+    .page-pagination{
+        overflow: hidden;
+    }
+    .page-pagination ul li a{
+        justify-content: space-between;
+        font-weight: normal;
+        font-size: 15px;
+    }    
+}
+
+
